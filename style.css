@@ -1,0 +1,174 @@
+@font-face {
+    font-family: 'Gorditas';
+    src: url(Gorditas-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'GorditasBold';
+    src: url(Gorditas-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'Lexend';
+    src: url(Lexend-VariableFont_wght.ttf);
+}
+
+header {
+    background-color: #210100;
+    color: #b14a36;
+    padding: 40px;
+    text-align: center;
+    line-height: 10px;
+    font-family: "Gorditas", sans-serif;
+}
+
+h2, label {
+    color: #8c0902;
+}
+
+p, li, td {
+    color: #b14a36;
+}
+
+nav {
+    padding: 10px;
+    background-color: #210100;
+    font-family: "GorditasBold", sans-serif ;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    box-shadow: 2px 2px 7px #090000;
+
+    a:link {
+    color:#b14a36
+}
+a:visited {
+    color: #e6a341;
+}
+a:hover {
+    color: #fece79;
+}
+a:active {
+    text-decoration: none;
+}
+}
+
+nav a {
+    text-decoration: none;
+}
+
+body {
+    background-image: url(MyBackground4.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    margin: 0;
+    font-family: "Lexend", sans-serif;
+}
+
+#Box1 {
+    border-left: 5px solid #8c0902;
+    border-radius: 20px;
+    width: 55%;
+    height: fit-content;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    background-color: #8c090230;
+}
+
+.profileImage {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 16px auto;
+    border-radius: 5%;
+}
+
+#Box2 {
+    border-left: 5px solid #8c0902;
+    border-radius: 20px;
+    width: 40%;
+    height: fit-content;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    background-color: #8c090230;
+}
+
+#Box3 {
+    border-left: 5px solid #8c0902;
+    border-radius: 20px;
+    width: 65%;
+    height: fit-content;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    background-color: #8c090230;
+}
+
+table {
+    width: 100%;
+    border-radius: 20px;
+    border-collapse: collapse;
+    overflow: hidden;
+}
+
+th,
+td {
+    padding: 15px 20px;
+    text-align: left;
+    border-bottom: 2px solid #e6a341;
+}
+
+th {
+    background-color: #210100;
+    color: #b14a36;
+}
+
+tr {
+    background-color: #fece79;
+}
+
+#Box4 {
+    border-left: 5px solid #8c0902;
+    border-radius: 20px;
+    width: 65%;
+    height: fit-content;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #8c090230;
+}
+
+.button {
+    background-color: #e6a341;
+    border: 2px solid #8c0902;
+    color: #210100;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+input, select {
+    padding: 5px;
+    margin-top: 4px;
+    border-radius: 8px;
+    border: none;
+}
+
+footer {
+    background-color: #210100;
+    color: #b14a36;
+    padding: 15px;
+    text-align: center;
+    line-height: 10px;
+    font-family: "Gorditas", sans-serif;
+}
